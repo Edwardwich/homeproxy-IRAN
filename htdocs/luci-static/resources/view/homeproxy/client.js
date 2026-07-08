@@ -183,9 +183,12 @@ return view.extend({
 		o.value('208.67.222.222', _('Cisco Public DNS (208.67.222.222)'));
 		o.value('8.8.8.8', _('Google Public DNS (8.8.8.8)'));
 		o.value('', '---');
-		o.value('223.5.5.5', _('Aliyun Public DNS (223.5.5.5)'));
-		o.value('119.29.29.29', _('Tencent Public DNS (119.29.29.29)'));
-		o.value('117.50.10.10', _('ThreatBook Public DNS (117.50.10.10)'));
+		o.value('217.218.127.127', _('Mokhaberat Public DNS (217.218.127.127)'));
+		o.value('85.15.1.14', _('shatel Public DNS (85.15.1.14)'));
+		o.value('78.157.42.100', _('irabcell Public DNS (78.157.42.100)'));
+		o.value('10.4.4.4', _('HamrahAval Public DNS (10.4.4.4)'));
+		o.value('178.22.122.100', _('shecanfree Public DNS (178.22.122.100)'));
+		o.value('178.22.122.101', _('shecanproo Public DNS (178.22.122.101)'));
 		o.default = '8.8.8.8';
 		o.rmempty = false;
 		o.depends({'routing_mode': 'custom', '!reverse': true});
