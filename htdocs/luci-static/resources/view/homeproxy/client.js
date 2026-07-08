@@ -255,7 +255,7 @@ return view.extend({
 
 		o = s.taboption('routing', form.ListValue, 'routing_mode', _('Routing mode'));
 		o.value('gfwlist', _('GFWList'));
-		o.value('bypass_mainland_china', _('Bypass mainland Iran'));
+		o.value('bypass_mainland_IRAN', _('Bypass mainland Iran'));
 		o.value('proxy_mainland_china', _('Only proxy mainland Iran'));
 		o.value('custom', _('Custom routing'));
 		o.value('global', _('Global'));
