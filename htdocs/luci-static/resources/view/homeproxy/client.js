@@ -220,12 +220,14 @@ return view.extend({
 		o = s.taboption('routing', form.Value, 'china_dns_server', _('China DNS server'),
 			_('The dns server for resolving China domains. Support UDP, TCP, DoH, DoQ, DoT.'));
 		o.value('wan', _('WAN DNS (read from interface)'));
-		o.value('223.5.5.5', _('Aliyun Public DNS (223.5.5.5)'));
-		o.value('210.2.4.8', _('CNNIC Public DNS (210.2.4.8)'));
-		o.value('119.29.29.29', _('Tencent Public DNS (119.29.29.29)'));
-		o.value('117.50.10.10', _('ThreatBook Public DNS (117.50.10.10)'));
+		o.value('217.218.127.127', _('Mokhaberat Public DNS (217.218.127.127)'));
+		o.value('85.15.1.14', _('shatel Public DNS (85.15.1.14)'));
+		o.value('78.157.42.100', _('irabcell Public DNS (78.157.42.100)'));
+		o.value('10.4.4.4', _('HamrahAval Public DNS (10.4.4.4)'));
+		o.value('178.22.122.100', _('shecanfree Public DNS (178.22.122.100)'));
+		o.value('178.22.122.101', _('shecanproo Public DNS (178.22.122.101)'));
 		o.depends('routing_mode', 'bypass_mainland_china');
-		o.default = '223.5.5.5';
+		o.default = '217.218.127.127';
 		o.rmempty = false;
 		o.validate = function(section_id, value) {
 			if (section_id && !['wan'].includes(value)) {
