@@ -217,7 +217,7 @@ return view.extend({
 			return true;
 		}
 
-		o = s.taboption('routing', form.Value, 'china_dns_server', _('China DNS server'),
+		o = s.taboption('routing', form.Value, 'china_dns_server', _('Iran DNS server'),
 			_('The dns server for resolving China domains. Support UDP, TCP, DoH, DoQ, DoT.'));
 		o.value('wan', _('WAN DNS (read from interface)'));
 		o.value('217.218.127.127', _('Mokhaberat Public DNS (217.218.127.127)'));
