@@ -249,7 +249,7 @@ return view.extend({
 		o.cfgvalue = L.bind(getResVersion, this, o, 'china_ip6');
 		o.rawhtml = true;
 
-		o = s.option(form.DummyValue, '_china_list_version', _('China list version'));
+		o = s.option(form.DummyValue, '_china_list_version', _('IRAN list version'));
 		o.cfgvalue = L.bind(getResVersion, this, o, 'china_list');
 		o.rawhtml = true;
 
